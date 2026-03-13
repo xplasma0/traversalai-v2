@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { MANIFEST_KEY } from "../compat/legacy-names.js";
+import { LEGACY_MANIFEST_KEYS, MANIFEST_KEY } from "../compat/legacy-names.js";
 import { fileExists, readJsonFile, resolveArchiveKind } from "../infra/archive.js";
 import { resolveExistingInstallPath, withExtractedArchiveRoot } from "../infra/install-flow.js";
 import {
@@ -86,8 +86,10 @@ export function resolveHookInstallDir(hookId: string, hooksDir?: string): string
 }
 
 async function ensureTraversalAIHooks(manifest: HookPackageManifest) {
-  const hooks = manifest[MANIFEST_KEY]?.hooks;
-  if (!Array.isArray(hooks)) {
+  const hooks = [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]
+    .map((key) => manifest[key]?.hooks)
+    .find((entry): entry is string[] => Array.isArray(entry));
+  if (!hooks) {
     throw new Error("package.json missing traversalai.hooks");
   }
   const list = hooks.map((e) => (typeof e === "string" ? e.trim() : "")).filter(Boolean);

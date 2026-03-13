@@ -52,7 +52,10 @@ function resolveMentionPatterns(cfg: TraversalAIConfig | undefined, agentId?: st
   return derived.length > 0 ? derived : [];
 }
 
-export function buildMentionRegexes(cfg: TraversalAIConfig | undefined, agentId?: string): RegExp[] {
+export function buildMentionRegexes(
+  cfg: TraversalAIConfig | undefined,
+  agentId?: string,
+): RegExp[] {
   const patterns = normalizeMentionPatterns(resolveMentionPatterns(cfg, agentId));
   return patterns
     .map((pattern) => {
@@ -66,7 +69,11 @@ export function buildMentionRegexes(cfg: TraversalAIConfig | undefined, agentId?
 }
 
 export function normalizeMentionText(text: string): string {
-  return (text ?? "").replace(/[\u200b-\u200f\u202a-\u202e\u2060-\u206f]/g, "").toLowerCase();
+  const normalized = (text ?? "")
+    .replace(/[\u200b-\u200f\u202a-\u202e\u2060-\u206f]/g, "")
+    .toLowerCase();
+  // Preserve legacy mention compatibility after the TraversalAI rebrand.
+  return normalized.replace(/\bopenclaw\b/g, "traversalai");
 }
 
 export function matchesMentionPatterns(text: string, mentionRegexes: RegExp[]): boolean {

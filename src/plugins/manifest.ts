@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
+  LEGACY_MANIFEST_KEYS,
   LEGACY_PLUGIN_MANIFEST_FILENAMES,
   MANIFEST_KEY,
   PROJECT_NAME,
@@ -169,5 +170,11 @@ export function getPackageManifestMetadata(
   if (!manifest) {
     return undefined;
   }
-  return manifest[MANIFEST_KEY];
+  for (const key of [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]) {
+    const metadata = manifest[key];
+    if (metadata) {
+      return metadata;
+    }
+  }
+  return undefined;
 }

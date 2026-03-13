@@ -67,6 +67,7 @@ const setupChannels = vi.hoisted(() => vi.fn(async (cfg) => cfg));
 const setupSkills = vi.hoisted(() => vi.fn(async (cfg) => cfg));
 const healthCommand = vi.hoisted(() => vi.fn(async () => {}));
 const ensureWorkspaceAndSessions = vi.hoisted(() => vi.fn(async () => {}));
+const ensureTraversalAiBuiltInAgentResources = vi.hoisted(() => vi.fn(async () => {}));
 const writeConfigFile = vi.hoisted(() => vi.fn(async () => {}));
 const readConfigFileSnapshot = vi.hoisted(() =>
   vi.fn(async () => ({
@@ -147,6 +148,7 @@ vi.mock("../commands/onboard-helpers.js", () => ({
   }),
   validateGatewayPasswordInput: () => ({ ok: true, error: null }),
   ensureWorkspaceAndSessions,
+  ensureTraversalAiBuiltInAgentResources,
   detectBrowserOpenSupport: vi.fn(async () => ({ ok: false })),
   openUrl: vi.fn(async () => true),
   printWizardHeader: vi.fn(),

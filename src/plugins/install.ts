@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { MANIFEST_KEY } from "../compat/legacy-names.js";
+import { LEGACY_MANIFEST_KEYS, MANIFEST_KEY } from "../compat/legacy-names.js";
 import { fileExists, readJsonFile, resolveArchiveKind } from "../infra/archive.js";
 import { resolveExistingInstallPath, withExtractedArchiveRoot } from "../infra/install-flow.js";
 import {
@@ -78,8 +78,10 @@ function validatePluginId(pluginId: string): string | null {
 }
 
 async function ensureTraversalAIExtensions(manifest: PackageManifest) {
-  const extensions = manifest[MANIFEST_KEY]?.extensions;
-  if (!Array.isArray(extensions)) {
+  const extensions = [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]
+    .map((key) => manifest[key]?.extensions)
+    .find((entry): entry is string[] => Array.isArray(entry));
+  if (!extensions) {
     throw new Error("package.json missing traversalai.extensions");
   }
   const list = extensions.map((e) => (typeof e === "string" ? e.trim() : "")).filter(Boolean);

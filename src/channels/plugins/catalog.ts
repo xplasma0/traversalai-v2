@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { MANIFEST_KEY } from "../../compat/legacy-names.js";
+import { LEGACY_MANIFEST_KEYS, MANIFEST_KEY } from "../../compat/legacy-names.js";
 import { discoverTraversalAIPlugins } from "../../plugins/discovery.js";
 import type { TraversalAIPackageManifest } from "../../plugins/manifest.js";
 import type { PluginOrigin } from "../../plugins/types.js";
@@ -221,7 +221,9 @@ function buildCatalogEntry(candidate: {
 }
 
 function buildExternalCatalogEntry(entry: ExternalCatalogEntry): ChannelPluginCatalogEntry | null {
-  const manifest = entry[MANIFEST_KEY];
+  const manifest = [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]
+    .map((key) => entry[key])
+    .find((value): value is TraversalAIPackageManifest => Boolean(value));
   return buildCatalogEntry({
     packageName: entry.name,
     packageManifest: manifest,

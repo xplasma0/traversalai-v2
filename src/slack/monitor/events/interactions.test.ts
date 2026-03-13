@@ -1150,7 +1150,7 @@ describe("registerSlackInteractionEvents", () => {
         expect.objectContaining({
           actionId: "url_input",
           inputKind: "url",
-          inputUrl: "https://xplasma0.github.io/traversalai-docs/",
+          inputUrl: "https://xplasma0.github.io/traversalai-docs",
         }),
         expect.objectContaining({
           actionId: "richtext_input",

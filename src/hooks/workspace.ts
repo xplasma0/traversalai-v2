@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { MANIFEST_KEY } from "../compat/legacy-names.js";
+import { LEGACY_MANIFEST_KEYS, MANIFEST_KEY } from "../compat/legacy-names.js";
 import type { TraversalAIConfig } from "../config/config.js";
 import { openBoundaryFileSync } from "../infra/boundary-file-read.js";
 import { createSubsystemLogger } from "../logging/subsystem.js";
@@ -53,7 +53,9 @@ function readHookPackageManifest(dir: string): HookPackageManifest | null {
 }
 
 function resolvePackageHooks(manifest: HookPackageManifest): string[] {
-  const raw = manifest[MANIFEST_KEY]?.hooks;
+  const raw = [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]
+    .map((key) => manifest[key]?.hooks)
+    .find((entry): entry is string[] => Array.isArray(entry));
   if (!Array.isArray(raw)) {
     return [];
   }
