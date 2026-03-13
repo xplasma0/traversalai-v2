@@ -59,7 +59,7 @@ const DEFAULT_CATALOG_PATHS = [
 
 const ENV_CATALOG_PATHS = ["TRAVERSALAI_PLUGIN_CATALOG_PATHS", "TRAVERSALAI_MPM_CATALOG_PATHS"];
 
-type ManifestKey = typeof MANIFEST_KEY;
+type ManifestKey = typeof MANIFEST_KEY | (typeof LEGACY_MANIFEST_KEYS)[number];
 
 function parseCatalogEntries(raw: unknown): ExternalCatalogEntry[] {
   if (Array.isArray(raw)) {

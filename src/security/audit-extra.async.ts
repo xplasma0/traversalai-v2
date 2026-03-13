@@ -81,7 +81,7 @@ async function readPluginManifestExtensions(pluginPath: string): Promise<string[
   }
 
   const parsed = JSON.parse(raw) as Partial<
-    Record<typeof MANIFEST_KEY, { extensions?: unknown }>
+    Record<typeof MANIFEST_KEY | (typeof LEGACY_MANIFEST_KEYS)[number], { extensions?: unknown }>
   > | null;
   const extensions = [MANIFEST_KEY, ...LEGACY_MANIFEST_KEYS]
     .map((key) => parsed?.[key]?.extensions)

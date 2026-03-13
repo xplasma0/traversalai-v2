@@ -156,7 +156,7 @@ export type TraversalAIPackageManifest = {
   install?: PluginPackageInstall;
 };
 
-export type ManifestKey = typeof MANIFEST_KEY;
+export type ManifestKey = typeof MANIFEST_KEY | (typeof LEGACY_MANIFEST_KEYS)[number];
 
 export type PackageManifest = {
   name?: string;
