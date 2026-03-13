@@ -26,13 +26,7 @@ TraversalAI is built to accelerate hospitality outcomes:
 
 ## Quick Start
 
-Runtime: Node 22+
 
-```bash
-npm install -g traversalai@latest
-traversalai onboard --install-daemon
-traversalai dashboard --no-open
-```
 
 ## From Source
 
@@ -46,11 +40,7 @@ node traversalai.mjs onboard --install-daemon
 
 ## Docs
 
-- Getting started: https://docs.traversalai.ai/start/getting-started
-- Gateway: https://docs.traversalai.ai/gateway
-- Channels: https://docs.traversalai.ai/channels
-- Security: https://docs.traversalai.ai/gateway/security
-- Troubleshooting: https://docs.traversalai.ai/channels/troubleshooting
+https://xplasma0.github.io/traversalai-docs/
 
 ## Notes
 
