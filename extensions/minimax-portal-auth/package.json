@@ -1,0 +1,12 @@
+{
+  "name": "@traversalai/minimax-portal-auth",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI MiniMax Portal OAuth provider plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

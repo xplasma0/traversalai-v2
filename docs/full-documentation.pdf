@@ -1,0 +1,2104 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 480 >>
+stream
+0.059 0.082 0.125 rg 0 0 612 792 re f
+0.063 0.561 0.718 rg 54 650 220 8 re f
+BT /F1 11 Tf 0.835 0.945 0.969 rg 54 685 Td (TraversalAI Documentation Artifact) Tj ET
+BT /F2 28 Tf 1.000 1.000 1.000 rg 54 612 Td (Documentation) Tj ET
+BT /F1 13 Tf 0.835 0.945 0.969 rg 54 570 Td (Generated from the live repository structure and documentation inventory.) Tj ET
+0.835 0.945 0.969 rg 54 120 504 1 re f
+BT /F1 10 Tf 0.835 0.945 0.969 rg 54 96 Td (Generated 2026-03-13T07:44:15.049Z) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 3143 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 2) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F2 20 Tf 0.063 0.561 0.718 rg 54 704 Td (TraversalAI Full Documentation Bundle) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 670 Td (Generated: 2026-03-13T07:44:14.627Z) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 648 Td (Reader Guide) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 618 Td (This bundle compiles the documentation surface of the repository into a single) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 603 Td (reference-oriented document. It is not a verbatim copy of every page; it is a structured) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 588 Td (master guide plus an exhaustive catalog of the shipped docs.) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 566 Td (Product and Installation) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 536 Td (- product-facing brand: TraversalAI) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 520 Td (- compatibility wrapper and many internals still use OpenClaw naming) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 504 Td (- primary install path: `npm install -g traversalai@latest`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 488 Td (- source workflow: `corepack pnpm install`, `corepack pnpm build`, `node traversalai.mjs) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 473 Td (onboard`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 451 Td (Built-in Agents) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 421 Td (TraversalAI now provisions the following built-ins during setup and onboarding:) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 399 Td (1. Master Control Agent) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 383 Td (2. Email Agent) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 367 Td (3. Social Media Agent) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 345 Td (They are created through config-backed provisioning, not through UI-only defaults, so they) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 330 Td (appear consistently in the gateway and runtime surfaces.) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 308 Td (Key Operator Commands) Tj ET
+0.937 0.953 0.973 rg 46 179 520 109 re f
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 272 Td (traversalai onboard) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 259 Td (traversalai chat --no-open) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 246 Td (traversalai gateway --force) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 233 Td (traversalai agents list) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 220 Td (traversalai health) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 207 Td (traversalai security audit --deep) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 194 Td (node scripts/generate-doc-pdfs.mjs) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 171 Td (Documentation Map) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 141 Td (.i18n) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 115 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 93 Td (- `docs/.i18n/README.md`) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 3334 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 3) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 704 Td (automation) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 678 Td (automation, hooks, cron, webhook, and event-driven workflow docs) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/automation/auth-monitoring.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/automation/cron-jobs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/automation/cron-vs-heartbeat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/automation/gmail-pubsub.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/automation/hooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/automation/poll.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/automation/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/automation/webhook.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 522 Td (brave-search.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 496 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 474 Td (- `docs/brave-search.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 452 Td (channels) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 426 Td (channel-specific setup, routing, pairing, and troubleshooting) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/channels/bluebubbles.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/channels/broadcast-groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/channels/channel-routing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/channels/discord.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/channels/feishu.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/channels/googlechat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/channels/grammy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/channels/group-messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/channels/groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/channels/imessage.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/channels/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/channels/irc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/channels/line.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/channels/location.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/channels/matrix.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/channels/mattermost.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/channels/msteams.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/channels/nextcloud-talk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/channels/nostr.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/channels/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 84 Td (- `docs/channels/signal.md`) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Length 3158 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 4) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/channels/slack.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/channels/synology-chat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/channels/telegram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/channels/tlon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/channels/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/channels/twitch.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/channels/whatsapp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/channels/zalo.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/channels/zalouser.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 554 Td (ci.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 528 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 506 Td (- `docs/ci.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 484 Td (cli) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 458 Td (CLI command reference by feature area) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 436 Td (- `docs/cli/acp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 420 Td (- `docs/cli/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/cli/agents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/cli/approvals.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/cli/browser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/cli/channels.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/cli/clawbot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/cli/completion.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/cli/config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/cli/configure.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/cli/cron.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/cli/daemon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/cli/dashboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/cli/devices.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/cli/directory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/cli/dns.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/cli/docs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/cli/doctor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/cli/gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/cli/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/cli/hooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/cli/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 84 Td (- `docs/cli/logs.md`) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 3338 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 5) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/cli/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/cli/message.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/cli/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/cli/node.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/cli/nodes.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/cli/onboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/cli/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/cli/plugins.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/cli/qr.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/cli/reset.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/cli/sandbox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/cli/secrets.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/cli/security.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/cli/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/cli/setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/cli/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/cli/status.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/cli/system.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/cli/tui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/cli/uninstall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/cli/update.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/cli/voicecall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/cli/webhooks.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 330 Td (concepts) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 304 Td (architecture and conceptual model explanations) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 282 Td (- `docs/concepts/agent-loop.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 266 Td (- `docs/concepts/agent-workspace.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 250 Td (- `docs/concepts/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 234 Td (- `docs/concepts/architecture.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 218 Td (- `docs/concepts/compaction.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 202 Td (- `docs/concepts/context.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 186 Td (- `docs/concepts/features.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 170 Td (- `docs/concepts/markdown-formatting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 154 Td (- `docs/concepts/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 138 Td (- `docs/concepts/messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 122 Td (- `docs/concepts/model-failover.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 106 Td (- `docs/concepts/model-providers.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 90 Td (- `docs/concepts/models.md`) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 3075 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 6) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/concepts/multi-agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/concepts/oauth.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/concepts/presence.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/concepts/queue.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/concepts/retry.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/concepts/session-pruning.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/concepts/session-tool.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/concepts/session.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/concepts/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/concepts/streaming.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/concepts/system-prompt.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/concepts/timezone.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/concepts/typebox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/concepts/typing-indicators.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/concepts/usage-tracking.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 458 Td (date-time.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 432 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 410 Td (- `docs/date-time.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 388 Td (debug) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 362 Td (debugging and diagnosis notes) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/debug/node-issue.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 318 Td (design) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 292 Td (design notes and integration proposals) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 270 Td (- `docs/design/kilo-gateway-integration.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 248 Td (diagnostics) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 222 Td (diagnostic flags and runtime debug behavior) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 200 Td (- `docs/diagnostics/flags.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 178 Td (experiments) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 152 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 130 Td (- `docs/experiments/onboarding-config-protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 114 Td (- `docs/experiments/plans/acp-thread-bound-agents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 98 Td (- `docs/experiments/plans/acp-unified-streaming-refactor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 82 Td (- `docs/experiments/plans/browser-evaluate-cdp-refactor.md`) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Length 3610 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 7) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/experiments/plans/openresponses-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/experiments/plans/pty-process-supervision.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/experiments/plans/session-binding-channel-agnostic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/experiments/proposals/model-config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/experiments/research/memory.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 618 Td (FULL_DOCUMENTATION.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 592 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 570 Td (- `docs/FULL_DOCUMENTATION.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 548 Td (gateway) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 522 Td (gateway operation, API, configuration, health, security, and networking) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 500 Td (- `docs/gateway/authentication.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 484 Td (- `docs/gateway/background-process.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 468 Td (- `docs/gateway/bonjour.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 452 Td (- `docs/gateway/bridge-protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 436 Td (- `docs/gateway/cli-backends.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 420 Td (- `docs/gateway/configuration-examples.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/gateway/configuration-reference.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/gateway/configuration.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/gateway/discovery.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/gateway/doctor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/gateway/gateway-lock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/gateway/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/gateway/heartbeat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/gateway/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/gateway/local-models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/gateway/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/gateway/multiple-gateways.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/gateway/network-model.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/gateway/openai-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/gateway/openresponses-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/gateway/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/gateway/protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/gateway/remote-gateway-readme.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/gateway/remote.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/gateway/sandbox-vs-tool-policy-vs-elevated.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/gateway/sandboxing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 84 Td (- `docs/gateway/secrets-plan-contract.md`) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Length 3207 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 8) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/gateway/secrets.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/gateway/security/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/gateway/tailscale.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/gateway/tools-invoke-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/gateway/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/gateway/trusted-proxy-auth.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 602 Td (help) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 576 Td (operator FAQs, scripts, environment, and testing help) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 554 Td (- `docs/help/debugging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 538 Td (- `docs/help/environment.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 522 Td (- `docs/help/faq.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 506 Td (- `docs/help/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 490 Td (- `docs/help/scripts.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 474 Td (- `docs/help/testing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 458 Td (- `docs/help/troubleshooting.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 436 Td (index.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 410 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/index.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 366 Td (install) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 340 Td (installation guides across environments) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 318 Td (- `docs/install/ansible.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 302 Td (- `docs/install/bun.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 286 Td (- `docs/install/development-channels.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 270 Td (- `docs/install/docker.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 254 Td (- `docs/install/exe-dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 238 Td (- `docs/install/fly.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 222 Td (- `docs/install/gcp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 206 Td (- `docs/install/hetzner.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 190 Td (- `docs/install/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 174 Td (- `docs/install/installer.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 158 Td (- `docs/install/macos-vm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 142 Td (- `docs/install/migrating.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 126 Td (- `docs/install/nix.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 110 Td (- `docs/install/node.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 94 Td (- `docs/install/northflank.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 78 Td (- `docs/install/podman.md`) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Length 2749 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 9) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/install/railway.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/install/render.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/install/uninstall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/install/updating.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 634 Td (ja-JP) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 608 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 586 Td (- `docs/ja-JP/AGENTS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 570 Td (- `docs/ja-JP/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 554 Td (- `docs/ja-JP/start/getting-started.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 538 Td (- `docs/ja-JP/start/wizard.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 516 Td (logging.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 490 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 468 Td (- `docs/logging.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 446 Td (network.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 420 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 398 Td (- `docs/network.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 376 Td (nodes) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 350 Td (node runtime, media, voice, and device docs) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 328 Td (- `docs/nodes/audio.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 312 Td (- `docs/nodes/camera.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 296 Td (- `docs/nodes/images.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 280 Td (- `docs/nodes/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 264 Td (- `docs/nodes/location-command.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 248 Td (- `docs/nodes/media-understanding.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 232 Td (- `docs/nodes/talk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 216 Td (- `docs/nodes/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 200 Td (- `docs/nodes/voicewake.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 178 Td (perplexity.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 152 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 130 Td (- `docs/perplexity.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 108 Td (pi-dev.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 82 Td (documentation group) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Length 3302 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 10) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/pi-dev.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 682 Td (pi.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 656 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 634 Td (- `docs/pi.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 612 Td (platforms) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 586 Td (OS and hosting platform guides) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 564 Td (- `docs/platforms/android.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 548 Td (- `docs/platforms/digitalocean.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 532 Td (- `docs/platforms/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 516 Td (- `docs/platforms/ios.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 500 Td (- `docs/platforms/linux.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 484 Td (- `docs/platforms/mac/bundled-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 468 Td (- `docs/platforms/mac/canvas.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 452 Td (- `docs/platforms/mac/child-process.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 436 Td (- `docs/platforms/mac/dev-setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 420 Td (- `docs/platforms/mac/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/platforms/mac/icon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/platforms/mac/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/platforms/mac/menu-bar.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/platforms/mac/peekaboo.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/platforms/mac/permissions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/platforms/mac/release.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/platforms/mac/remote.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/platforms/mac/signing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/platforms/mac/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/platforms/mac/voice-overlay.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/platforms/mac/voicewake.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/platforms/mac/webchat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/platforms/mac/xpc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/platforms/macos.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/platforms/oracle.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/platforms/raspberry-pi.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/platforms/windows.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 126 Td (plugins) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 100 Td (plugin, extension, and community package docs) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 78 Td (- `docs/plugins/agent-tools.md`) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Length 3382 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 11) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/plugins/community.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/plugins/manifest.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/plugins/voice-call.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/plugins/zalouser.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 634 Td (prose.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 608 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 586 Td (- `docs/prose.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 564 Td (providers) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 538 Td (provider-specific auth, models, and runtime guidance) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 516 Td (- `docs/providers/anthropic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 500 Td (- `docs/providers/bedrock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 484 Td (- `docs/providers/claude-max-api-proxy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 468 Td (- `docs/providers/cloudflare-ai-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 452 Td (- `docs/providers/deepgram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 436 Td (- `docs/providers/github-copilot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 420 Td (- `docs/providers/glm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/providers/huggingface.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/providers/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/providers/kilocode.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/providers/litellm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/providers/minimax.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/providers/mistral.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/providers/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/providers/moonshot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/providers/nvidia.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/providers/ollama.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/providers/openai.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/providers/opencode.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/providers/openrouter.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/providers/qianfan.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/providers/qwen.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/providers/synthetic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/providers/together.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/providers/venice.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/providers/vercel-ai-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/providers/vllm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 84 Td (- `docs/providers/xiaomi.md`) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Length 3460 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 12) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/providers/zai.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 682 Td (refactor) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 656 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 634 Td (- `docs/refactor/clawnet.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 618 Td (- `docs/refactor/exec-host.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 602 Td (- `docs/refactor/outbound-session-mirroring.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 586 Td (- `docs/refactor/plugin-sdk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 570 Td (- `docs/refactor/strict-config.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 548 Td (reference) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 522 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 500 Td (- `docs/reference/AGENTS.default.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 484 Td (- `docs/reference/RELEASING.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 468 Td (- `docs/reference/api-usage-costs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 452 Td (- `docs/reference/codebase-overview.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 436 Td (- `docs/reference/credits.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 420 Td (- `docs/reference/device-models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 404 Td (- `docs/reference/prompt-caching.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 388 Td (- `docs/reference/rpc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 372 Td (- `docs/reference/session-management-compaction.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/reference/templates/AGENTS.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 340 Td (- `docs/reference/templates/AGENTS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 324 Td (- `docs/reference/templates/BOOT.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 308 Td (- `docs/reference/templates/BOOTSTRAP.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 292 Td (- `docs/reference/templates/HEARTBEAT.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 276 Td (- `docs/reference/templates/IDENTITY.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/reference/templates/IDENTITY.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/reference/templates/SOUL.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/reference/templates/SOUL.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/reference/templates/TOOLS.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/reference/templates/TOOLS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/reference/templates/USER.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/reference/templates/USER.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/reference/test.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/reference/token-use.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/reference/transcript-hygiene.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/reference/wizard.md`) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Length 3247 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 13) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 704 Td (security) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 678 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/security/CONTRIBUTING-THREAT-MODEL.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/security/README.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/security/THREAT-MODEL-ATLAS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/security/formal-verification.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 586 Td (start) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 560 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 538 Td (- `docs/start/bootstrapping.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 522 Td (- `docs/start/docs-directory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 506 Td (- `docs/start/getting-started.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 490 Td (- `docs/start/hubs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 474 Td (- `docs/start/lore.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 458 Td (- `docs/start/onboarding-overview.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 442 Td (- `docs/start/onboarding.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 426 Td (- `docs/start/openclaw.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 410 Td (- `docs/start/quickstart.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 394 Td (- `docs/start/setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 378 Td (- `docs/start/showcase.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 362 Td (- `docs/start/wizard-cli-automation.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 346 Td (- `docs/start/wizard-cli-reference.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 330 Td (- `docs/start/wizard.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 308 Td (tools) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 282 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 260 Td (- `docs/tools/acp-agents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 244 Td (- `docs/tools/agent-send.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 228 Td (- `docs/tools/apply-patch.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 212 Td (- `docs/tools/browser-linux-troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 196 Td (- `docs/tools/browser-login.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 180 Td (- `docs/tools/browser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 164 Td (- `docs/tools/chrome-extension.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 148 Td (- `docs/tools/clawhub.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 132 Td (- `docs/tools/creating-skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 116 Td (- `docs/tools/elevated.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 100 Td (- `docs/tools/exec-approvals.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 84 Td (- `docs/tools/exec.md`) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Length 2960 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 14) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/tools/firecrawl.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/tools/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/tools/llm-task.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/tools/lobster.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/tools/loop-detection.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/tools/multi-agent-sandbox-tools.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/tools/plugin.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/tools/reactions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/tools/skills-config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/tools/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/tools/slash-commands.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/tools/subagents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/tools/thinking.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/tools/web.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 474 Td (tts.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 448 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 426 Td (- `docs/tts.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 404 Td (vps.md) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 378 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 356 Td (- `docs/vps.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 334 Td (web) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 308 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 286 Td (- `docs/web/control-ui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 270 Td (- `docs/web/dashboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 254 Td (- `docs/web/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 238 Td (- `docs/web/tui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 222 Td (- `docs/web/webchat.md`) Tj ET
+BT /F2 12 Tf 0.086 0.110 0.141 rg 54 200 Td (zh-CN) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 174 Td (documentation group) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 152 Td (- `docs/zh-CN/AGENTS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 136 Td (- `docs/zh-CN/automation/auth-monitoring.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 120 Td (- `docs/zh-CN/automation/cron-jobs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 104 Td (- `docs/zh-CN/automation/cron-vs-heartbeat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 88 Td (- `docs/zh-CN/automation/gmail-pubsub.md`) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Length 3836 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 15) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/automation/hooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/automation/poll.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/automation/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/automation/webhook.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/brave-search.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/channels/bluebubbles.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/channels/broadcast-groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/channels/channel-routing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/channels/discord.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/channels/feishu.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/channels/googlechat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/channels/grammy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/channels/group-messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/channels/groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/channels/imessage.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/channels/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/channels/line.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/channels/location.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/channels/matrix.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/channels/mattermost.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/channels/msteams.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/channels/nextcloud-talk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/channels/nostr.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/channels/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/channels/signal.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/channels/slack.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/channels/telegram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/channels/tlon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/channels/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/channels/twitch.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/channels/whatsapp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/channels/zalo.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/channels/zalouser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/cli/acp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/cli/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/cli/agents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/cli/approvals.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/cli/browser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/cli/channels.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/cli/config.md`) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Length 3658 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 16) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/cli/configure.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/cli/cron.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/cli/dashboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/cli/devices.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/cli/directory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/cli/dns.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/cli/docs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/cli/doctor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/cli/gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/cli/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/cli/hooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/cli/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/cli/logs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/cli/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/cli/message.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/cli/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/cli/node.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/cli/nodes.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/cli/onboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/cli/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/cli/plugins.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/cli/reset.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/cli/sandbox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/cli/security.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/cli/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/cli/setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/cli/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/cli/status.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/cli/system.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/cli/tui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/cli/uninstall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/cli/update.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/cli/voicecall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/cli/webhooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/concepts/agent-loop.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/concepts/agent-workspace.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/concepts/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/concepts/architecture.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/concepts/compaction.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/concepts/context.md`) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Length 4058 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 17) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/concepts/features.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/concepts/markdown-formatting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/concepts/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/concepts/messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/concepts/model-failover.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/concepts/model-providers.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/concepts/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/concepts/multi-agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/concepts/oauth.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/concepts/presence.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/concepts/queue.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/concepts/retry.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/concepts/session-pruning.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/concepts/session-tool.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/concepts/session.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/concepts/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/concepts/streaming.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/concepts/system-prompt.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/concepts/timezone.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/concepts/typebox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/concepts/typing-indicators.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/concepts/usage-tracking.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/date-time.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/debug/node-issue.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/diagnostics/flags.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/experiments/onboarding-config-protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/experiments/plans/cron-add-hardening.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/experiments/plans/group-policy-hardening.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/experiments/plans/openresponses-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/experiments/proposals/model-config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/experiments/research/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/gateway/authentication.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/gateway/background-process.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/gateway/bonjour.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/gateway/bridge-protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/gateway/cli-backends.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/gateway/configuration-examples.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/gateway/configuration.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/gateway/discovery.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/gateway/doctor.md`) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Length 3899 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 18) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/gateway/gateway-lock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/gateway/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/gateway/heartbeat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/gateway/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/gateway/local-models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/gateway/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/gateway/multiple-gateways.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/gateway/network-model.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/gateway/openai-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/gateway/openresponses-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/gateway/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/gateway/protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/gateway/remote-gateway-readme.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/gateway/remote.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/gateway/sandboxing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/gateway/security/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/gateway/tailscale.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/gateway/tools-invoke-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/gateway/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/help/debugging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/help/environment.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/help/faq.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/help/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/help/scripts.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/help/testing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/help/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/install/ansible.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/install/bun.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/install/development-channels.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/install/docker.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/install/exe-dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/install/fly.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/install/gcp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/install/hetzner.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/install/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/install/installer.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/install/macos-vm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/install/migrating.md`) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Length 3864 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 19) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/install/nix.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/install/node.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/install/northflank.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/install/railway.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/install/render.mdx`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/install/uninstall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/install/updating.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/network.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/nodes/audio.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/nodes/camera.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/nodes/images.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/nodes/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/nodes/location-command.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/nodes/media-understanding.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/nodes/talk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/nodes/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/nodes/voicewake.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/perplexity.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/pi-dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/pi.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/platforms/android.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/platforms/digitalocean.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/platforms/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/platforms/ios.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/platforms/linux.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/platforms/mac/bundled-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/platforms/mac/canvas.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/platforms/mac/child-process.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/platforms/mac/dev-setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/platforms/mac/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/platforms/mac/icon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/platforms/mac/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/platforms/mac/menu-bar.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/platforms/mac/peekaboo.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/platforms/mac/permissions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/platforms/mac/release.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/platforms/mac/remote.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/platforms/mac/signing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/platforms/mac/skills.md`) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Length 3941 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 20) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/platforms/mac/voice-overlay.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/platforms/mac/voicewake.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/platforms/mac/webchat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/platforms/mac/xpc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/platforms/macos.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/platforms/oracle.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/platforms/raspberry-pi.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/platforms/windows.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/plugins/agent-tools.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/plugins/manifest.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/plugins/voice-call.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/plugins/zalouser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/prose.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/providers/anthropic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/providers/bedrock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/providers/claude-max-api-proxy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/providers/deepgram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/providers/github-copilot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/providers/glm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/providers/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/providers/minimax.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/providers/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/providers/moonshot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/providers/ollama.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/providers/openai.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/providers/opencode.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/providers/openrouter.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/providers/qianfan.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/providers/qwen.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/providers/synthetic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/providers/venice.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/providers/vercel-ai-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/providers/xiaomi.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/providers/zai.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/refactor/clawnet.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/refactor/exec-host.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/refactor/outbound-session-mirroring.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/refactor/plugin-sdk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/refactor/strict-config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/reference/AGENTS.default.md`) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Length 4056 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 21) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/reference/RELEASING.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/reference/api-usage-costs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/reference/credits.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/reference/device-models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/reference/rpc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/reference/session-management-compaction.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/reference/templates/AGENTS.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/reference/templates/AGENTS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/reference/templates/BOOT.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/reference/templates/BOOTSTRAP.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/reference/templates/HEARTBEAT.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/reference/templates/IDENTITY.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/reference/templates/IDENTITY.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/reference/templates/SOUL.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/reference/templates/SOUL.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/reference/templates/TOOLS.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/reference/templates/TOOLS.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/reference/templates/USER.dev.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/reference/templates/USER.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/reference/test.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/reference/token-use.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/reference/transcript-hygiene.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/reference/wizard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/security/formal-verification.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/start/bootstrapping.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/start/docs-directory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/zh-CN/start/getting-started.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/zh-CN/start/hubs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/zh-CN/start/lore.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/zh-CN/start/onboarding.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/zh-CN/start/openclaw.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/zh-CN/start/quickstart.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/zh-CN/start/setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/zh-CN/start/showcase.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 160 Td (- `docs/zh-CN/start/wizard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 144 Td (- `docs/zh-CN/tools/agent-send.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 128 Td (- `docs/zh-CN/tools/apply-patch.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 112 Td (- `docs/zh-CN/tools/browser-linux-troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 96 Td (- `docs/zh-CN/tools/browser-login.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 80 Td (- `docs/zh-CN/tools/browser.md`) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Length 3545 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 22) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/zh-CN/tools/chrome-extension.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/zh-CN/tools/clawhub.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/zh-CN/tools/creating-skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/zh-CN/tools/elevated.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/zh-CN/tools/exec-approvals.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/zh-CN/tools/exec.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/zh-CN/tools/firecrawl.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/zh-CN/tools/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/zh-CN/tools/llm-task.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/zh-CN/tools/lobster.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/zh-CN/tools/multi-agent-sandbox-tools.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/zh-CN/tools/plugin.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/zh-CN/tools/reactions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/zh-CN/tools/skills-config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/zh-CN/tools/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/zh-CN/tools/slash-commands.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/zh-CN/tools/subagents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/zh-CN/tools/thinking.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/zh-CN/tools/web.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/zh-CN/tts.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/zh-CN/vps.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/zh-CN/web/control-ui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/zh-CN/web/dashboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/zh-CN/web/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/zh-CN/web/tui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/zh-CN/web/webchat.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 282 Td (CLI Documentation Coverage) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 252 Td (- `docs/cli/acp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 236 Td (- `docs/cli/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 220 Td (- `docs/cli/agents.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 204 Td (- `docs/cli/approvals.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 188 Td (- `docs/cli/browser.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 172 Td (- `docs/cli/channels.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 156 Td (- `docs/cli/clawbot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 140 Td (- `docs/cli/completion.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 124 Td (- `docs/cli/config.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 108 Td (- `docs/cli/configure.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 92 Td (- `docs/cli/cron.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 76 Td (- `docs/cli/daemon.md`) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Length 3336 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 23) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/cli/dashboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/cli/devices.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/cli/directory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/cli/dns.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/cli/docs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/cli/doctor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/cli/gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/cli/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/cli/hooks.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/cli/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/cli/logs.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/cli/memory.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/cli/message.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/cli/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/cli/node.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/cli/nodes.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/cli/onboard.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/cli/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/cli/plugins.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/cli/qr.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/cli/reset.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/cli/sandbox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/cli/secrets.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/cli/security.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/cli/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/cli/setup.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/cli/skills.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/cli/status.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/cli/system.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 240 Td (- `docs/cli/tui.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 224 Td (- `docs/cli/uninstall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 208 Td (- `docs/cli/update.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 192 Td (- `docs/cli/voicecall.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 176 Td (- `docs/cli/webhooks.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 154 Td (Gateway Documentation Coverage) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 124 Td (- `docs/gateway/authentication.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 108 Td (- `docs/gateway/background-process.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 92 Td (- `docs/gateway/bonjour.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 76 Td (- `docs/gateway/bridge-protocol.md`) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Length 3705 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 24) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/gateway/cli-backends.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/gateway/configuration-examples.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/gateway/configuration-reference.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/gateway/configuration.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/gateway/discovery.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/gateway/doctor.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/gateway/gateway-lock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/gateway/health.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/gateway/heartbeat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/gateway/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/gateway/local-models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/gateway/logging.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/gateway/multiple-gateways.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/gateway/network-model.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/gateway/openai-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/gateway/openresponses-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/gateway/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/gateway/protocol.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/gateway/remote-gateway-readme.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 400 Td (- `docs/gateway/remote.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 384 Td (- `docs/gateway/sandbox-vs-tool-policy-vs-elevated.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 368 Td (- `docs/gateway/sandboxing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 352 Td (- `docs/gateway/secrets-plan-contract.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 336 Td (- `docs/gateway/secrets.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 320 Td (- `docs/gateway/security/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 304 Td (- `docs/gateway/tailscale.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 288 Td (- `docs/gateway/tools-invoke-http-api.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 272 Td (- `docs/gateway/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 256 Td (- `docs/gateway/trusted-proxy-auth.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 234 Td (Concepts Documentation Coverage) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 204 Td (- `docs/concepts/agent-loop.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 188 Td (- `docs/concepts/agent-workspace.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 172 Td (- `docs/concepts/agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 156 Td (- `docs/concepts/architecture.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 140 Td (- `docs/concepts/compaction.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 124 Td (- `docs/concepts/context.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 108 Td (- `docs/concepts/features.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 92 Td (- `docs/concepts/markdown-formatting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 76 Td (- `docs/concepts/memory.md`) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Length 3595 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 25) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/concepts/messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/concepts/model-failover.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/concepts/model-providers.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/concepts/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/concepts/multi-agent.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/concepts/oauth.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/concepts/presence.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/concepts/queue.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/concepts/retry.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/concepts/session-pruning.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/concepts/session-tool.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 528 Td (- `docs/concepts/session.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 512 Td (- `docs/concepts/sessions.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 496 Td (- `docs/concepts/streaming.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 480 Td (- `docs/concepts/system-prompt.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 464 Td (- `docs/concepts/timezone.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 448 Td (- `docs/concepts/typebox.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 432 Td (- `docs/concepts/typing-indicators.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 416 Td (- `docs/concepts/usage-tracking.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 394 Td (Channel Documentation Coverage) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 364 Td (- `docs/channels/bluebubbles.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 348 Td (- `docs/channels/broadcast-groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 332 Td (- `docs/channels/channel-routing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 316 Td (- `docs/channels/discord.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 300 Td (- `docs/channels/feishu.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 284 Td (- `docs/channels/googlechat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 268 Td (- `docs/channels/grammy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 252 Td (- `docs/channels/group-messages.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 236 Td (- `docs/channels/groups.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 220 Td (- `docs/channels/imessage.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 204 Td (- `docs/channels/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 188 Td (- `docs/channels/irc.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 172 Td (- `docs/channels/line.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 156 Td (- `docs/channels/location.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 140 Td (- `docs/channels/matrix.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 124 Td (- `docs/channels/mattermost.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 108 Td (- `docs/channels/msteams.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 92 Td (- `docs/channels/nextcloud-talk.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 76 Td (- `docs/channels/nostr.md`) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Length 3591 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 26) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/channels/pairing.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/channels/signal.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 672 Td (- `docs/channels/slack.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 656 Td (- `docs/channels/synology-chat.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 640 Td (- `docs/channels/telegram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 624 Td (- `docs/channels/tlon.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 608 Td (- `docs/channels/troubleshooting.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 592 Td (- `docs/channels/twitch.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 576 Td (- `docs/channels/whatsapp.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 560 Td (- `docs/channels/zalo.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 544 Td (- `docs/channels/zalouser.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 522 Td (Provider Documentation Coverage) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 492 Td (- `docs/providers/anthropic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 476 Td (- `docs/providers/bedrock.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 460 Td (- `docs/providers/claude-max-api-proxy.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 444 Td (- `docs/providers/cloudflare-ai-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 428 Td (- `docs/providers/deepgram.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 412 Td (- `docs/providers/github-copilot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 396 Td (- `docs/providers/glm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 380 Td (- `docs/providers/huggingface.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 364 Td (- `docs/providers/index.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 348 Td (- `docs/providers/kilocode.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 332 Td (- `docs/providers/litellm.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 316 Td (- `docs/providers/minimax.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 300 Td (- `docs/providers/mistral.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 284 Td (- `docs/providers/models.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 268 Td (- `docs/providers/moonshot.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 252 Td (- `docs/providers/nvidia.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 236 Td (- `docs/providers/ollama.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 220 Td (- `docs/providers/openai.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 204 Td (- `docs/providers/opencode.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 188 Td (- `docs/providers/openrouter.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 172 Td (- `docs/providers/qianfan.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 156 Td (- `docs/providers/qwen.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 140 Td (- `docs/providers/synthetic.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 124 Td (- `docs/providers/together.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 108 Td (- `docs/providers/venice.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 92 Td (- `docs/providers/vercel-ai-gateway.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 76 Td (- `docs/providers/vllm.md`) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Length 521 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 27) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 704 Td (- `docs/providers/xiaomi.md`) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 62 688 Td (- `docs/providers/zai.md`) Tj ET
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 666 Td (Full Documentation Appendix) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Length 54785 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 28) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+0.937 0.953 0.973 rg 46 -7923 520 8637 re f
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 698 Td (docs/.i18n/README.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 685 Td (docs/FULL_DOCUMENTATION.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 672 Td (docs/automation/auth-monitoring.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 659 Td (docs/automation/cron-jobs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 646 Td (docs/automation/cron-vs-heartbeat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 633 Td (docs/automation/gmail-pubsub.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 620 Td (docs/automation/hooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 607 Td (docs/automation/poll.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 594 Td (docs/automation/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 581 Td (docs/automation/webhook.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 568 Td (docs/brave-search.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 555 Td (docs/channels/bluebubbles.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 542 Td (docs/channels/broadcast-groups.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 529 Td (docs/channels/channel-routing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 516 Td (docs/channels/discord.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 503 Td (docs/channels/feishu.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 490 Td (docs/channels/googlechat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 477 Td (docs/channels/grammy.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 464 Td (docs/channels/group-messages.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 451 Td (docs/channels/groups.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 438 Td (docs/channels/imessage.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 425 Td (docs/channels/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 412 Td (docs/channels/irc.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 399 Td (docs/channels/line.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 386 Td (docs/channels/location.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 373 Td (docs/channels/matrix.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 360 Td (docs/channels/mattermost.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 347 Td (docs/channels/msteams.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 334 Td (docs/channels/nextcloud-talk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 321 Td (docs/channels/nostr.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 308 Td (docs/channels/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 295 Td (docs/channels/signal.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 282 Td (docs/channels/slack.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 269 Td (docs/channels/synology-chat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 256 Td (docs/channels/telegram.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 243 Td (docs/channels/tlon.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 230 Td (docs/channels/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 217 Td (docs/channels/twitch.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 204 Td (docs/channels/whatsapp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 191 Td (docs/channels/zalo.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 178 Td (docs/channels/zalouser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 165 Td (docs/ci.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 152 Td (docs/cli/acp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 139 Td (docs/cli/agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 126 Td (docs/cli/agents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 113 Td (docs/cli/approvals.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 100 Td (docs/cli/browser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 87 Td (docs/cli/channels.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 74 Td (docs/cli/clawbot.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 61 Td (docs/cli/completion.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 48 Td (docs/cli/config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 35 Td (docs/cli/configure.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 22 Td (docs/cli/cron.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 9 Td (docs/cli/daemon.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4 Td (docs/cli/dashboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -17 Td (docs/cli/devices.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -30 Td (docs/cli/directory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -43 Td (docs/cli/dns.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -56 Td (docs/cli/docs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -69 Td (docs/cli/doctor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -82 Td (docs/cli/gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -95 Td (docs/cli/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -108 Td (docs/cli/hooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -121 Td (docs/cli/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -134 Td (docs/cli/logs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -147 Td (docs/cli/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -160 Td (docs/cli/message.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -173 Td (docs/cli/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -186 Td (docs/cli/node.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -199 Td (docs/cli/nodes.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -212 Td (docs/cli/onboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -225 Td (docs/cli/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -238 Td (docs/cli/plugins.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -251 Td (docs/cli/qr.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -264 Td (docs/cli/reset.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -277 Td (docs/cli/sandbox.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -290 Td (docs/cli/secrets.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -303 Td (docs/cli/security.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -316 Td (docs/cli/sessions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -329 Td (docs/cli/setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -342 Td (docs/cli/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -355 Td (docs/cli/status.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -368 Td (docs/cli/system.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -381 Td (docs/cli/tui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -394 Td (docs/cli/uninstall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -407 Td (docs/cli/update.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -420 Td (docs/cli/voicecall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -433 Td (docs/cli/webhooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -446 Td (docs/concepts/agent-loop.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -459 Td (docs/concepts/agent-workspace.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -472 Td (docs/concepts/agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -485 Td (docs/concepts/architecture.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -498 Td (docs/concepts/compaction.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -511 Td (docs/concepts/context.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -524 Td (docs/concepts/features.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -537 Td (docs/concepts/markdown-formatting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -550 Td (docs/concepts/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -563 Td (docs/concepts/messages.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -576 Td (docs/concepts/model-failover.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -589 Td (docs/concepts/model-providers.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -602 Td (docs/concepts/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -615 Td (docs/concepts/multi-agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -628 Td (docs/concepts/oauth.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -641 Td (docs/concepts/presence.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -654 Td (docs/concepts/queue.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -667 Td (docs/concepts/retry.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -680 Td (docs/concepts/session-pruning.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -693 Td (docs/concepts/session-tool.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -706 Td (docs/concepts/session.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -719 Td (docs/concepts/sessions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -732 Td (docs/concepts/streaming.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -745 Td (docs/concepts/system-prompt.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -758 Td (docs/concepts/timezone.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -771 Td (docs/concepts/typebox.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -784 Td (docs/concepts/typing-indicators.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -797 Td (docs/concepts/usage-tracking.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -810 Td (docs/date-time.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -823 Td (docs/debug/node-issue.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -836 Td (docs/design/kilo-gateway-integration.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -849 Td (docs/diagnostics/flags.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -862 Td (docs/experiments/onboarding-config-protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -875 Td (docs/experiments/plans/acp-thread-bound-agents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -888 Td (docs/experiments/plans/acp-unified-streaming-refactor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -901 Td (docs/experiments/plans/browser-evaluate-cdp-refactor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -914 Td (docs/experiments/plans/openresponses-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -927 Td (docs/experiments/plans/pty-process-supervision.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -940 Td (docs/experiments/plans/session-binding-channel-agnostic.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -953 Td (docs/experiments/proposals/model-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -966 Td (docs/experiments/research/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -979 Td (docs/gateway/authentication.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -992 Td (docs/gateway/background-process.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1005 Td (docs/gateway/bonjour.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1018 Td (docs/gateway/bridge-protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1031 Td (docs/gateway/cli-backends.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1044 Td (docs/gateway/configuration-examples.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1057 Td (docs/gateway/configuration-reference.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1070 Td (docs/gateway/configuration.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1083 Td (docs/gateway/discovery.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1096 Td (docs/gateway/doctor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1109 Td (docs/gateway/gateway-lock.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1122 Td (docs/gateway/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1135 Td (docs/gateway/heartbeat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1148 Td (docs/gateway/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1161 Td (docs/gateway/local-models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1174 Td (docs/gateway/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1187 Td (docs/gateway/multiple-gateways.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1200 Td (docs/gateway/network-model.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1213 Td (docs/gateway/openai-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1226 Td (docs/gateway/openresponses-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1239 Td (docs/gateway/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1252 Td (docs/gateway/protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1265 Td (docs/gateway/remote-gateway-readme.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1278 Td (docs/gateway/remote.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1291 Td (docs/gateway/sandbox-vs-tool-policy-vs-elevated.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1304 Td (docs/gateway/sandboxing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1317 Td (docs/gateway/secrets-plan-contract.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1330 Td (docs/gateway/secrets.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1343 Td (docs/gateway/security/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1356 Td (docs/gateway/tailscale.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1369 Td (docs/gateway/tools-invoke-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1382 Td (docs/gateway/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1395 Td (docs/gateway/trusted-proxy-auth.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1408 Td (docs/help/debugging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1421 Td (docs/help/environment.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1434 Td (docs/help/faq.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1447 Td (docs/help/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1460 Td (docs/help/scripts.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1473 Td (docs/help/testing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1486 Td (docs/help/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1499 Td (docs/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1512 Td (docs/install/ansible.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1525 Td (docs/install/bun.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1538 Td (docs/install/development-channels.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1551 Td (docs/install/docker.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1564 Td (docs/install/exe-dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1577 Td (docs/install/fly.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1590 Td (docs/install/gcp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1603 Td (docs/install/hetzner.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1616 Td (docs/install/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1629 Td (docs/install/installer.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1642 Td (docs/install/macos-vm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1655 Td (docs/install/migrating.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1668 Td (docs/install/nix.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1681 Td (docs/install/node.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1694 Td (docs/install/northflank.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1707 Td (docs/install/podman.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1720 Td (docs/install/railway.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1733 Td (docs/install/render.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1746 Td (docs/install/uninstall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1759 Td (docs/install/updating.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1772 Td (docs/ja-JP/AGENTS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1785 Td (docs/ja-JP/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1798 Td (docs/ja-JP/start/getting-started.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1811 Td (docs/ja-JP/start/wizard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1824 Td (docs/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1837 Td (docs/network.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1850 Td (docs/nodes/audio.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1863 Td (docs/nodes/camera.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1876 Td (docs/nodes/images.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1889 Td (docs/nodes/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1902 Td (docs/nodes/location-command.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1915 Td (docs/nodes/media-understanding.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1928 Td (docs/nodes/talk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1941 Td (docs/nodes/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1954 Td (docs/nodes/voicewake.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1967 Td (docs/perplexity.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1980 Td (docs/pi-dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -1993 Td (docs/pi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2006 Td (docs/platforms/android.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2019 Td (docs/platforms/digitalocean.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2032 Td (docs/platforms/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2045 Td (docs/platforms/ios.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2058 Td (docs/platforms/linux.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2071 Td (docs/platforms/mac/bundled-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2084 Td (docs/platforms/mac/canvas.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2097 Td (docs/platforms/mac/child-process.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2110 Td (docs/platforms/mac/dev-setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2123 Td (docs/platforms/mac/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2136 Td (docs/platforms/mac/icon.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2149 Td (docs/platforms/mac/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2162 Td (docs/platforms/mac/menu-bar.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2175 Td (docs/platforms/mac/peekaboo.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2188 Td (docs/platforms/mac/permissions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2201 Td (docs/platforms/mac/release.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2214 Td (docs/platforms/mac/remote.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2227 Td (docs/platforms/mac/signing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2240 Td (docs/platforms/mac/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2253 Td (docs/platforms/mac/voice-overlay.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2266 Td (docs/platforms/mac/voicewake.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2279 Td (docs/platforms/mac/webchat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2292 Td (docs/platforms/mac/xpc.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2305 Td (docs/platforms/macos.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2318 Td (docs/platforms/oracle.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2331 Td (docs/platforms/raspberry-pi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2344 Td (docs/platforms/windows.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2357 Td (docs/plugins/agent-tools.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2370 Td (docs/plugins/community.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2383 Td (docs/plugins/manifest.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2396 Td (docs/plugins/voice-call.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2409 Td (docs/plugins/zalouser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2422 Td (docs/prose.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2435 Td (docs/providers/anthropic.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2448 Td (docs/providers/bedrock.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2461 Td (docs/providers/claude-max-api-proxy.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2474 Td (docs/providers/cloudflare-ai-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2487 Td (docs/providers/deepgram.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2500 Td (docs/providers/github-copilot.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2513 Td (docs/providers/glm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2526 Td (docs/providers/huggingface.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2539 Td (docs/providers/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2552 Td (docs/providers/kilocode.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2565 Td (docs/providers/litellm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2578 Td (docs/providers/minimax.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2591 Td (docs/providers/mistral.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2604 Td (docs/providers/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2617 Td (docs/providers/moonshot.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2630 Td (docs/providers/nvidia.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2643 Td (docs/providers/ollama.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2656 Td (docs/providers/openai.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2669 Td (docs/providers/opencode.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2682 Td (docs/providers/openrouter.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2695 Td (docs/providers/qianfan.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2708 Td (docs/providers/qwen.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2721 Td (docs/providers/synthetic.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2734 Td (docs/providers/together.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2747 Td (docs/providers/venice.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2760 Td (docs/providers/vercel-ai-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2773 Td (docs/providers/vllm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2786 Td (docs/providers/xiaomi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2799 Td (docs/providers/zai.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2812 Td (docs/refactor/clawnet.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2825 Td (docs/refactor/exec-host.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2838 Td (docs/refactor/outbound-session-mirroring.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2851 Td (docs/refactor/plugin-sdk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2864 Td (docs/refactor/strict-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2877 Td (docs/reference/AGENTS.default.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2890 Td (docs/reference/RELEASING.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2903 Td (docs/reference/api-usage-costs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2916 Td (docs/reference/codebase-overview.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2929 Td (docs/reference/credits.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2942 Td (docs/reference/device-models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2955 Td (docs/reference/prompt-caching.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2968 Td (docs/reference/rpc.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2981 Td (docs/reference/session-management-compaction.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -2994 Td (docs/reference/templates/AGENTS.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3007 Td (docs/reference/templates/AGENTS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3020 Td (docs/reference/templates/BOOT.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3033 Td (docs/reference/templates/BOOTSTRAP.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3046 Td (docs/reference/templates/HEARTBEAT.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3059 Td (docs/reference/templates/IDENTITY.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3072 Td (docs/reference/templates/IDENTITY.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3085 Td (docs/reference/templates/SOUL.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3098 Td (docs/reference/templates/SOUL.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3111 Td (docs/reference/templates/TOOLS.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3124 Td (docs/reference/templates/TOOLS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3137 Td (docs/reference/templates/USER.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3150 Td (docs/reference/templates/USER.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3163 Td (docs/reference/test.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3176 Td (docs/reference/token-use.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3189 Td (docs/reference/transcript-hygiene.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3202 Td (docs/reference/wizard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3215 Td (docs/security/CONTRIBUTING-THREAT-MODEL.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3228 Td (docs/security/README.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3241 Td (docs/security/THREAT-MODEL-ATLAS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3254 Td (docs/security/formal-verification.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3267 Td (docs/start/bootstrapping.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3280 Td (docs/start/docs-directory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3293 Td (docs/start/getting-started.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3306 Td (docs/start/hubs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3319 Td (docs/start/lore.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3332 Td (docs/start/onboarding-overview.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3345 Td (docs/start/onboarding.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3358 Td (docs/start/openclaw.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3371 Td (docs/start/quickstart.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3384 Td (docs/start/setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3397 Td (docs/start/showcase.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3410 Td (docs/start/wizard-cli-automation.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3423 Td (docs/start/wizard-cli-reference.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3436 Td (docs/start/wizard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3449 Td (docs/tools/acp-agents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3462 Td (docs/tools/agent-send.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3475 Td (docs/tools/apply-patch.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3488 Td (docs/tools/browser-linux-troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3501 Td (docs/tools/browser-login.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3514 Td (docs/tools/browser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3527 Td (docs/tools/chrome-extension.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3540 Td (docs/tools/clawhub.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3553 Td (docs/tools/creating-skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3566 Td (docs/tools/elevated.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3579 Td (docs/tools/exec-approvals.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3592 Td (docs/tools/exec.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3605 Td (docs/tools/firecrawl.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3618 Td (docs/tools/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3631 Td (docs/tools/llm-task.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3644 Td (docs/tools/lobster.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3657 Td (docs/tools/loop-detection.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3670 Td (docs/tools/multi-agent-sandbox-tools.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3683 Td (docs/tools/plugin.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3696 Td (docs/tools/reactions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3709 Td (docs/tools/skills-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3722 Td (docs/tools/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3735 Td (docs/tools/slash-commands.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3748 Td (docs/tools/subagents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3761 Td (docs/tools/thinking.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3774 Td (docs/tools/web.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3787 Td (docs/tts.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3800 Td (docs/vps.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3813 Td (docs/web/control-ui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3826 Td (docs/web/dashboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3839 Td (docs/web/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3852 Td (docs/web/tui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3865 Td (docs/web/webchat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3878 Td (docs/zh-CN/AGENTS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3891 Td (docs/zh-CN/automation/auth-monitoring.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3904 Td (docs/zh-CN/automation/cron-jobs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3917 Td (docs/zh-CN/automation/cron-vs-heartbeat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3930 Td (docs/zh-CN/automation/gmail-pubsub.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3943 Td (docs/zh-CN/automation/hooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3956 Td (docs/zh-CN/automation/poll.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3969 Td (docs/zh-CN/automation/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3982 Td (docs/zh-CN/automation/webhook.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -3995 Td (docs/zh-CN/brave-search.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4008 Td (docs/zh-CN/channels/bluebubbles.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4021 Td (docs/zh-CN/channels/broadcast-groups.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4034 Td (docs/zh-CN/channels/channel-routing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4047 Td (docs/zh-CN/channels/discord.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4060 Td (docs/zh-CN/channels/feishu.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4073 Td (docs/zh-CN/channels/googlechat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4086 Td (docs/zh-CN/channels/grammy.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4099 Td (docs/zh-CN/channels/group-messages.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4112 Td (docs/zh-CN/channels/groups.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4125 Td (docs/zh-CN/channels/imessage.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4138 Td (docs/zh-CN/channels/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4151 Td (docs/zh-CN/channels/line.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4164 Td (docs/zh-CN/channels/location.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4177 Td (docs/zh-CN/channels/matrix.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4190 Td (docs/zh-CN/channels/mattermost.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4203 Td (docs/zh-CN/channels/msteams.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4216 Td (docs/zh-CN/channels/nextcloud-talk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4229 Td (docs/zh-CN/channels/nostr.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4242 Td (docs/zh-CN/channels/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4255 Td (docs/zh-CN/channels/signal.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4268 Td (docs/zh-CN/channels/slack.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4281 Td (docs/zh-CN/channels/telegram.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4294 Td (docs/zh-CN/channels/tlon.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4307 Td (docs/zh-CN/channels/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4320 Td (docs/zh-CN/channels/twitch.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4333 Td (docs/zh-CN/channels/whatsapp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4346 Td (docs/zh-CN/channels/zalo.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4359 Td (docs/zh-CN/channels/zalouser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4372 Td (docs/zh-CN/cli/acp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4385 Td (docs/zh-CN/cli/agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4398 Td (docs/zh-CN/cli/agents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4411 Td (docs/zh-CN/cli/approvals.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4424 Td (docs/zh-CN/cli/browser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4437 Td (docs/zh-CN/cli/channels.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4450 Td (docs/zh-CN/cli/config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4463 Td (docs/zh-CN/cli/configure.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4476 Td (docs/zh-CN/cli/cron.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4489 Td (docs/zh-CN/cli/dashboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4502 Td (docs/zh-CN/cli/devices.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4515 Td (docs/zh-CN/cli/directory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4528 Td (docs/zh-CN/cli/dns.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4541 Td (docs/zh-CN/cli/docs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4554 Td (docs/zh-CN/cli/doctor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4567 Td (docs/zh-CN/cli/gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4580 Td (docs/zh-CN/cli/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4593 Td (docs/zh-CN/cli/hooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4606 Td (docs/zh-CN/cli/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4619 Td (docs/zh-CN/cli/logs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4632 Td (docs/zh-CN/cli/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4645 Td (docs/zh-CN/cli/message.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4658 Td (docs/zh-CN/cli/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4671 Td (docs/zh-CN/cli/node.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4684 Td (docs/zh-CN/cli/nodes.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4697 Td (docs/zh-CN/cli/onboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4710 Td (docs/zh-CN/cli/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4723 Td (docs/zh-CN/cli/plugins.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4736 Td (docs/zh-CN/cli/reset.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4749 Td (docs/zh-CN/cli/sandbox.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4762 Td (docs/zh-CN/cli/security.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4775 Td (docs/zh-CN/cli/sessions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4788 Td (docs/zh-CN/cli/setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4801 Td (docs/zh-CN/cli/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4814 Td (docs/zh-CN/cli/status.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4827 Td (docs/zh-CN/cli/system.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4840 Td (docs/zh-CN/cli/tui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4853 Td (docs/zh-CN/cli/uninstall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4866 Td (docs/zh-CN/cli/update.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4879 Td (docs/zh-CN/cli/voicecall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4892 Td (docs/zh-CN/cli/webhooks.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4905 Td (docs/zh-CN/concepts/agent-loop.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4918 Td (docs/zh-CN/concepts/agent-workspace.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4931 Td (docs/zh-CN/concepts/agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4944 Td (docs/zh-CN/concepts/architecture.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4957 Td (docs/zh-CN/concepts/compaction.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4970 Td (docs/zh-CN/concepts/context.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4983 Td (docs/zh-CN/concepts/features.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -4996 Td (docs/zh-CN/concepts/markdown-formatting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5009 Td (docs/zh-CN/concepts/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5022 Td (docs/zh-CN/concepts/messages.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5035 Td (docs/zh-CN/concepts/model-failover.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5048 Td (docs/zh-CN/concepts/model-providers.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5061 Td (docs/zh-CN/concepts/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5074 Td (docs/zh-CN/concepts/multi-agent.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5087 Td (docs/zh-CN/concepts/oauth.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5100 Td (docs/zh-CN/concepts/presence.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5113 Td (docs/zh-CN/concepts/queue.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5126 Td (docs/zh-CN/concepts/retry.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5139 Td (docs/zh-CN/concepts/session-pruning.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5152 Td (docs/zh-CN/concepts/session-tool.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5165 Td (docs/zh-CN/concepts/session.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5178 Td (docs/zh-CN/concepts/sessions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5191 Td (docs/zh-CN/concepts/streaming.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5204 Td (docs/zh-CN/concepts/system-prompt.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5217 Td (docs/zh-CN/concepts/timezone.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5230 Td (docs/zh-CN/concepts/typebox.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5243 Td (docs/zh-CN/concepts/typing-indicators.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5256 Td (docs/zh-CN/concepts/usage-tracking.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5269 Td (docs/zh-CN/date-time.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5282 Td (docs/zh-CN/debug/node-issue.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5295 Td (docs/zh-CN/diagnostics/flags.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5308 Td (docs/zh-CN/experiments/onboarding-config-protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5321 Td (docs/zh-CN/experiments/plans/cron-add-hardening.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5334 Td (docs/zh-CN/experiments/plans/group-policy-hardening.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5347 Td (docs/zh-CN/experiments/plans/openresponses-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5360 Td (docs/zh-CN/experiments/proposals/model-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5373 Td (docs/zh-CN/experiments/research/memory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5386 Td (docs/zh-CN/gateway/authentication.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5399 Td (docs/zh-CN/gateway/background-process.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5412 Td (docs/zh-CN/gateway/bonjour.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5425 Td (docs/zh-CN/gateway/bridge-protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5438 Td (docs/zh-CN/gateway/cli-backends.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5451 Td (docs/zh-CN/gateway/configuration-examples.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5464 Td (docs/zh-CN/gateway/configuration.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5477 Td (docs/zh-CN/gateway/discovery.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5490 Td (docs/zh-CN/gateway/doctor.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5503 Td (docs/zh-CN/gateway/gateway-lock.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5516 Td (docs/zh-CN/gateway/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5529 Td (docs/zh-CN/gateway/heartbeat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5542 Td (docs/zh-CN/gateway/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5555 Td (docs/zh-CN/gateway/local-models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5568 Td (docs/zh-CN/gateway/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5581 Td (docs/zh-CN/gateway/multiple-gateways.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5594 Td (docs/zh-CN/gateway/network-model.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5607 Td (docs/zh-CN/gateway/openai-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5620 Td (docs/zh-CN/gateway/openresponses-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5633 Td (docs/zh-CN/gateway/pairing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5646 Td (docs/zh-CN/gateway/protocol.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5659 Td (docs/zh-CN/gateway/remote-gateway-readme.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5672 Td (docs/zh-CN/gateway/remote.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5685 Td (docs/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5698 Td (docs/zh-CN/gateway/sandboxing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5711 Td (docs/zh-CN/gateway/security/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5724 Td (docs/zh-CN/gateway/tailscale.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5737 Td (docs/zh-CN/gateway/tools-invoke-http-api.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5750 Td (docs/zh-CN/gateway/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5763 Td (docs/zh-CN/help/debugging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5776 Td (docs/zh-CN/help/environment.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5789 Td (docs/zh-CN/help/faq.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5802 Td (docs/zh-CN/help/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5815 Td (docs/zh-CN/help/scripts.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5828 Td (docs/zh-CN/help/testing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5841 Td (docs/zh-CN/help/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5854 Td (docs/zh-CN/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5867 Td (docs/zh-CN/install/ansible.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5880 Td (docs/zh-CN/install/bun.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5893 Td (docs/zh-CN/install/development-channels.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5906 Td (docs/zh-CN/install/docker.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5919 Td (docs/zh-CN/install/exe-dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5932 Td (docs/zh-CN/install/fly.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5945 Td (docs/zh-CN/install/gcp.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5958 Td (docs/zh-CN/install/hetzner.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5971 Td (docs/zh-CN/install/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5984 Td (docs/zh-CN/install/installer.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -5997 Td (docs/zh-CN/install/macos-vm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6010 Td (docs/zh-CN/install/migrating.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6023 Td (docs/zh-CN/install/nix.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6036 Td (docs/zh-CN/install/node.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6049 Td (docs/zh-CN/install/northflank.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6062 Td (docs/zh-CN/install/railway.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6075 Td (docs/zh-CN/install/render.mdx) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6088 Td (docs/zh-CN/install/uninstall.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6101 Td (docs/zh-CN/install/updating.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6114 Td (docs/zh-CN/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6127 Td (docs/zh-CN/network.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6140 Td (docs/zh-CN/nodes/audio.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6153 Td (docs/zh-CN/nodes/camera.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6166 Td (docs/zh-CN/nodes/images.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6179 Td (docs/zh-CN/nodes/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6192 Td (docs/zh-CN/nodes/location-command.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6205 Td (docs/zh-CN/nodes/media-understanding.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6218 Td (docs/zh-CN/nodes/talk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6231 Td (docs/zh-CN/nodes/troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6244 Td (docs/zh-CN/nodes/voicewake.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6257 Td (docs/zh-CN/perplexity.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6270 Td (docs/zh-CN/pi-dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6283 Td (docs/zh-CN/pi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6296 Td (docs/zh-CN/platforms/android.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6309 Td (docs/zh-CN/platforms/digitalocean.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6322 Td (docs/zh-CN/platforms/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6335 Td (docs/zh-CN/platforms/ios.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6348 Td (docs/zh-CN/platforms/linux.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6361 Td (docs/zh-CN/platforms/mac/bundled-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6374 Td (docs/zh-CN/platforms/mac/canvas.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6387 Td (docs/zh-CN/platforms/mac/child-process.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6400 Td (docs/zh-CN/platforms/mac/dev-setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6413 Td (docs/zh-CN/platforms/mac/health.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6426 Td (docs/zh-CN/platforms/mac/icon.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6439 Td (docs/zh-CN/platforms/mac/logging.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6452 Td (docs/zh-CN/platforms/mac/menu-bar.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6465 Td (docs/zh-CN/platforms/mac/peekaboo.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6478 Td (docs/zh-CN/platforms/mac/permissions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6491 Td (docs/zh-CN/platforms/mac/release.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6504 Td (docs/zh-CN/platforms/mac/remote.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6517 Td (docs/zh-CN/platforms/mac/signing.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6530 Td (docs/zh-CN/platforms/mac/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6543 Td (docs/zh-CN/platforms/mac/voice-overlay.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6556 Td (docs/zh-CN/platforms/mac/voicewake.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6569 Td (docs/zh-CN/platforms/mac/webchat.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6582 Td (docs/zh-CN/platforms/mac/xpc.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6595 Td (docs/zh-CN/platforms/macos.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6608 Td (docs/zh-CN/platforms/oracle.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6621 Td (docs/zh-CN/platforms/raspberry-pi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6634 Td (docs/zh-CN/platforms/windows.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6647 Td (docs/zh-CN/plugins/agent-tools.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6660 Td (docs/zh-CN/plugins/manifest.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6673 Td (docs/zh-CN/plugins/voice-call.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6686 Td (docs/zh-CN/plugins/zalouser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6699 Td (docs/zh-CN/prose.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6712 Td (docs/zh-CN/providers/anthropic.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6725 Td (docs/zh-CN/providers/bedrock.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6738 Td (docs/zh-CN/providers/claude-max-api-proxy.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6751 Td (docs/zh-CN/providers/deepgram.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6764 Td (docs/zh-CN/providers/github-copilot.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6777 Td (docs/zh-CN/providers/glm.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6790 Td (docs/zh-CN/providers/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6803 Td (docs/zh-CN/providers/minimax.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6816 Td (docs/zh-CN/providers/models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6829 Td (docs/zh-CN/providers/moonshot.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6842 Td (docs/zh-CN/providers/ollama.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6855 Td (docs/zh-CN/providers/openai.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6868 Td (docs/zh-CN/providers/opencode.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6881 Td (docs/zh-CN/providers/openrouter.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6894 Td (docs/zh-CN/providers/qianfan.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6907 Td (docs/zh-CN/providers/qwen.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6920 Td (docs/zh-CN/providers/synthetic.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6933 Td (docs/zh-CN/providers/venice.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6946 Td (docs/zh-CN/providers/vercel-ai-gateway.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6959 Td (docs/zh-CN/providers/xiaomi.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6972 Td (docs/zh-CN/providers/zai.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6985 Td (docs/zh-CN/refactor/clawnet.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -6998 Td (docs/zh-CN/refactor/exec-host.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7011 Td (docs/zh-CN/refactor/outbound-session-mirroring.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7024 Td (docs/zh-CN/refactor/plugin-sdk.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7037 Td (docs/zh-CN/refactor/strict-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7050 Td (docs/zh-CN/reference/AGENTS.default.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7063 Td (docs/zh-CN/reference/RELEASING.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7076 Td (docs/zh-CN/reference/api-usage-costs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7089 Td (docs/zh-CN/reference/credits.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7102 Td (docs/zh-CN/reference/device-models.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7115 Td (docs/zh-CN/reference/rpc.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7128 Td (docs/zh-CN/reference/session-management-compaction.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7141 Td (docs/zh-CN/reference/templates/AGENTS.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7154 Td (docs/zh-CN/reference/templates/AGENTS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7167 Td (docs/zh-CN/reference/templates/BOOT.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7180 Td (docs/zh-CN/reference/templates/BOOTSTRAP.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7193 Td (docs/zh-CN/reference/templates/HEARTBEAT.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7206 Td (docs/zh-CN/reference/templates/IDENTITY.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7219 Td (docs/zh-CN/reference/templates/IDENTITY.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7232 Td (docs/zh-CN/reference/templates/SOUL.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7245 Td (docs/zh-CN/reference/templates/SOUL.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7258 Td (docs/zh-CN/reference/templates/TOOLS.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7271 Td (docs/zh-CN/reference/templates/TOOLS.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7284 Td (docs/zh-CN/reference/templates/USER.dev.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7297 Td (docs/zh-CN/reference/templates/USER.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7310 Td (docs/zh-CN/reference/test.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7323 Td (docs/zh-CN/reference/token-use.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7336 Td (docs/zh-CN/reference/transcript-hygiene.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7349 Td (docs/zh-CN/reference/wizard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7362 Td (docs/zh-CN/security/formal-verification.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7375 Td (docs/zh-CN/start/bootstrapping.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7388 Td (docs/zh-CN/start/docs-directory.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7401 Td (docs/zh-CN/start/getting-started.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7414 Td (docs/zh-CN/start/hubs.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7427 Td (docs/zh-CN/start/lore.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7440 Td (docs/zh-CN/start/onboarding.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7453 Td (docs/zh-CN/start/openclaw.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7466 Td (docs/zh-CN/start/quickstart.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7479 Td (docs/zh-CN/start/setup.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7492 Td (docs/zh-CN/start/showcase.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7505 Td (docs/zh-CN/start/wizard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7518 Td (docs/zh-CN/tools/agent-send.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7531 Td (docs/zh-CN/tools/apply-patch.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7544 Td (docs/zh-CN/tools/browser-linux-troubleshooting.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7557 Td (docs/zh-CN/tools/browser-login.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7570 Td (docs/zh-CN/tools/browser.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7583 Td (docs/zh-CN/tools/chrome-extension.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7596 Td (docs/zh-CN/tools/clawhub.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7609 Td (docs/zh-CN/tools/creating-skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7622 Td (docs/zh-CN/tools/elevated.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7635 Td (docs/zh-CN/tools/exec-approvals.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7648 Td (docs/zh-CN/tools/exec.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7661 Td (docs/zh-CN/tools/firecrawl.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7674 Td (docs/zh-CN/tools/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7687 Td (docs/zh-CN/tools/llm-task.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7700 Td (docs/zh-CN/tools/lobster.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7713 Td (docs/zh-CN/tools/multi-agent-sandbox-tools.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7726 Td (docs/zh-CN/tools/plugin.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7739 Td (docs/zh-CN/tools/reactions.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7752 Td (docs/zh-CN/tools/skills-config.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7765 Td (docs/zh-CN/tools/skills.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7778 Td (docs/zh-CN/tools/slash-commands.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7791 Td (docs/zh-CN/tools/subagents.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7804 Td (docs/zh-CN/tools/thinking.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7817 Td (docs/zh-CN/tools/web.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7830 Td (docs/zh-CN/tts.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7843 Td (docs/zh-CN/vps.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7856 Td (docs/zh-CN/web/control-ui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7869 Td (docs/zh-CN/web/dashboard.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7882 Td (docs/zh-CN/web/index.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7895 Td (docs/zh-CN/web/tui.md) Tj ET
+BT /F3 9 Tf 0.086 0.110 0.141 rg 54 -7908 Td (docs/zh-CN/web/webchat.md) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Length 635 >>
+stream
+0.969 0.973 0.980 rg 0 0 612 792 re f
+0.835 0.945 0.969 rg 0 764 612 28 re f
+0.063 0.561 0.718 rg 0 764 180 28 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 54 774 Td (Documentation) Tj ET
+BT /F1 9 Tf 0.361 0.412 0.478 rg 502 26 Td (Page 29) Tj ET
+0.914 0.929 0.949 rg 54 42 504 1 re f
+BT /F2 15 Tf 0.086 0.110 0.141 rg 54 704 Td (Source Cross-Reference) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 674 Td (Use the code explanation bundle for runtime architecture and source-layer rationale. This) Tj ET
+BT /F1 10.5 Tf 0.086 0.110 0.141 rg 54 659 Td (documentation bundle focuses on operator setup, configuration, and discoverability.) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Pages /Kids [34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R] /Count 29 >>
+endobj
+34 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+35 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
+endobj
+36 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+37 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 7 0 R >>
+endobj
+38 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+39 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
+endobj
+40 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+41 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 11 0 R >>
+endobj
+42 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+43 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 13 0 R >>
+endobj
+44 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 14 0 R >>
+endobj
+45 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 15 0 R >>
+endobj
+46 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 16 0 R >>
+endobj
+47 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 17 0 R >>
+endobj
+48 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 18 0 R >>
+endobj
+49 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 19 0 R >>
+endobj
+50 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 20 0 R >>
+endobj
+51 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 21 0 R >>
+endobj
+52 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 22 0 R >>
+endobj
+53 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 23 0 R >>
+endobj
+54 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 24 0 R >>
+endobj
+55 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 25 0 R >>
+endobj
+56 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 26 0 R >>
+endobj
+57 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 27 0 R >>
+endobj
+58 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 28 0 R >>
+endobj
+59 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 29 0 R >>
+endobj
+60 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 30 0 R >>
+endobj
+61 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 31 0 R >>
+endobj
+62 0 obj
+<< /Type /Page /Parent 33 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 32 0 R >>
+endobj
+63 0 obj
+<< /Type /Catalog /Pages 33 0 R >>
+endobj
+64 0 obj
+<< /Title (TraversalAI Full Documentation Bundle) /Producer (TraversalAI PDF Builder) >>
+endobj
+xref
+0 65
+0000000000 65535 f 
+0000000019 00000 n 
+0000000089 00000 n 
+0000000164 00000 n 
+0000000232 00000 n 
+0000000763 00000 n 
+0000003958 00000 n 
+0000007344 00000 n 
+0000010554 00000 n 
+0000013944 00000 n 
+0000017071 00000 n 
+0000020734 00000 n 
+0000023994 00000 n 
+0000026796 00000 n 
+0000030151 00000 n 
+0000033586 00000 n 
+0000037099 00000 n 
+0000040399 00000 n 
+0000043412 00000 n 
+0000047301 00000 n 
+0000051012 00000 n 
+0000055123 00000 n 
+0000059075 00000 n 
+0000062992 00000 n 
+0000066986 00000 n 
+0000071095 00000 n 
+0000074693 00000 n 
+0000078082 00000 n 
+0000081840 00000 n 
+0000085488 00000 n 
+0000089132 00000 n 
+0000089705 00000 n 
+0000144544 00000 n 
+0000145231 00000 n 
+0000145487 00000 n 
+0000145635 00000 n 
+0000145783 00000 n 
+0000145931 00000 n 
+0000146079 00000 n 
+0000146227 00000 n 
+0000146375 00000 n 
+0000146524 00000 n 
+0000146673 00000 n 
+0000146822 00000 n 
+0000146971 00000 n 
+0000147120 00000 n 
+0000147269 00000 n 
+0000147418 00000 n 
+0000147567 00000 n 
+0000147716 00000 n 
+0000147865 00000 n 
+0000148014 00000 n 
+0000148163 00000 n 
+0000148312 00000 n 
+0000148461 00000 n 
+0000148610 00000 n 
+0000148759 00000 n 
+0000148908 00000 n 
+0000149057 00000 n 
+0000149206 00000 n 
+0000149355 00000 n 
+0000149504 00000 n 
+0000149653 00000 n 
+0000149802 00000 n 
+0000149853 00000 n 
+trailer
+<< /Size 65 /Root 63 0 R /Info 64 0 R >>
+startxref
+149958
+%%EOF

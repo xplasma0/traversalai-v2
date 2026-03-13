@@ -1,0 +1,12 @@
+{
+  "name": "@traversalai/llm-task",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI JSON-only LLM task plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

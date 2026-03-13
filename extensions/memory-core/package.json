@@ -1,0 +1,15 @@
+{
+  "name": "@traversalai/memory-core",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI core memory search plugin",
+  "type": "module",
+  "peerDependencies": {
+    "traversalai": ">=2026.1.26"
+  },
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

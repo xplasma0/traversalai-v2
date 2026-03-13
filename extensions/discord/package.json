@@ -1,0 +1,11 @@
+{
+  "name": "@traversalai/discord",
+  "version": "2026.2.26",
+  "description": "TraversalAI Discord channel plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

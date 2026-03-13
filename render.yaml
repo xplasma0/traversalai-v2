@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: traversalai
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: SETUP_PASSWORD
+        sync: false
+      - key: TRAVERSALAI_STATE_DIR
+        value: /data/.traversalai
+      - key: TRAVERSALAI_WORKSPACE_DIR
+        value: /data/workspace
+      - key: TRAVERSALAI_GATEWAY_TOKEN
+        generateValue: true
+    disk:
+      name: traversalai-data
+      mountPath: /data
+      sizeGB: 1

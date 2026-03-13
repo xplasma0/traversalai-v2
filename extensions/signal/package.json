@@ -1,0 +1,12 @@
+{
+  "name": "@traversalai/signal",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI Signal channel plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

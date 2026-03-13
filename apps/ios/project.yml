@@ -1,0 +1,238 @@
+name: TraversalAI
+options:
+  bundleIdPrefix: ai.traversalai
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+
+packages:
+  TraversalAIKit:
+    path: ../shared/TraversalAIKit
+  Swabble:
+    path: ../../Swabble
+
+schemes:
+  TraversalAI:
+    shared: true
+    build:
+      targets:
+        TraversalAI: all
+    test:
+      targets:
+        - TraversalAITests
+
+targets:
+  TraversalAI:
+    type: application
+    platform: iOS
+    configFiles:
+      Debug: Signing.xcconfig
+      Release: Signing.xcconfig
+    sources:
+      - path: Sources
+    dependencies:
+      - target: TraversalAIShareExtension
+        embed: true
+      - target: TraversalAIWatchApp
+      - package: TraversalAIKit
+      - package: TraversalAIKit
+        product: TraversalAIChatUI
+      - package: TraversalAIKit
+        product: TraversalAIProtocol
+      - package: Swabble
+        product: SwabbleKit
+      - sdk: AppIntents.framework
+    preBuildScripts:
+      - name: SwiftFormat (lint)
+        basedOnDependencyAnalysis: false
+        inputFileLists:
+          - $(SRCROOT)/SwiftSources.input.xcfilelist
+        script: |
+          set -euo pipefail
+          export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+          if ! command -v swiftformat >/dev/null 2>&1; then
+            echo "error: swiftformat not found (brew install swiftformat)" >&2
+            exit 1
+          fi
+          swiftformat --lint --config "$SRCROOT/../../.swiftformat" \
+            --filelist "$SRCROOT/SwiftSources.input.xcfilelist"
+      - name: SwiftLint
+        basedOnDependencyAnalysis: false
+        inputFileLists:
+          - $(SRCROOT)/SwiftSources.input.xcfilelist
+        script: |
+          set -euo pipefail
+          export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+          if ! command -v swiftlint >/dev/null 2>&1; then
+            echo "error: swiftlint not found (brew install swiftlint)" >&2
+            exit 1
+          fi
+          swiftlint lint --config "$SRCROOT/.swiftlint.yml" --use-script-input-file-lists
+    settings:
+      base:
+        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_ENTITLEMENTS: Sources/TraversalAI.entitlements
+        CODE_SIGN_STYLE: "$(TRAVERSALAI_CODE_SIGN_STYLE)"
+        DEVELOPMENT_TEAM: "$(TRAVERSALAI_DEVELOPMENT_TEAM)"
+        PRODUCT_BUNDLE_IDENTIFIER: "$(TRAVERSALAI_APP_BUNDLE_ID)"
+        PROVISIONING_PROFILE_SPECIFIER: "$(TRAVERSALAI_APP_PROFILE)"
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        ENABLE_APPINTENTS_METADATA: NO
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: TraversalAI
+        CFBundleIconName: AppIcon
+        CFBundleURLTypes:
+          - CFBundleURLName: ai.traversalai.ios
+            CFBundleURLSchemes:
+              - traversalai
+        CFBundleShortVersionString: "2026.2.26"
+        CFBundleVersion: "20260226"
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UIBackgroundModes:
+          - audio
+          - remote-notification
+        BGTaskSchedulerPermittedIdentifiers:
+          - ai.traversalai.ios.bgrefresh
+        NSLocalNetworkUsageDescription: TraversalAI discovers and connects to your TraversalAI gateway on the local network.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoadsInWebContent: true
+        NSBonjourServices:
+          - _traversalai-gw._tcp
+        NSCameraUsageDescription: TraversalAI can capture photos or short video clips when requested via the gateway.
+        NSLocationWhenInUseUsageDescription: TraversalAI uses your location when you allow location sharing.
+        NSLocationAlwaysAndWhenInUseUsageDescription: TraversalAI can share your location in the background when you enable Always.
+        NSMicrophoneUsageDescription: TraversalAI needs microphone access for voice wake.
+        NSSpeechRecognitionUsageDescription: TraversalAI uses on-device speech recognition for voice wake.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+
+  TraversalAIShareExtension:
+    type: app-extension
+    platform: iOS
+    configFiles:
+      Debug: Signing.xcconfig
+      Release: Signing.xcconfig
+    sources:
+      - path: ShareExtension
+    dependencies:
+      - package: TraversalAIKit
+    settings:
+      base:
+        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_STYLE: "$(TRAVERSALAI_CODE_SIGN_STYLE)"
+        DEVELOPMENT_TEAM: "$(TRAVERSALAI_DEVELOPMENT_TEAM)"
+        PRODUCT_BUNDLE_IDENTIFIER: "$(TRAVERSALAI_SHARE_BUNDLE_ID)"
+        PROVISIONING_PROFILE_SPECIFIER: "$(TRAVERSALAI_SHARE_PROFILE)"
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+    info:
+      path: ShareExtension/Info.plist
+      properties:
+        CFBundleDisplayName: TraversalAI Share
+        CFBundleShortVersionString: "2026.2.26"
+        CFBundleVersion: "20260226"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.share-services
+          NSExtensionPrincipalClass: "$(PRODUCT_MODULE_NAME).ShareViewController"
+          NSExtensionAttributes:
+            NSExtensionActivationRule:
+              NSExtensionActivationSupportsText: true
+              NSExtensionActivationSupportsWebURLWithMaxCount: 1
+              NSExtensionActivationSupportsImageWithMaxCount: 10
+              NSExtensionActivationSupportsMovieWithMaxCount: 1
+
+  TraversalAIWatchApp:
+    type: application.watchapp2
+    platform: watchOS
+    deploymentTarget: "11.0"
+    sources:
+      - path: WatchApp
+    dependencies:
+      - target: TraversalAIWatchExtension
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "$(TRAVERSALAI_WATCH_APP_BUNDLE_ID)"
+    info:
+      path: WatchApp/Info.plist
+      properties:
+        CFBundleDisplayName: TraversalAI
+        CFBundleShortVersionString: "2026.2.26"
+        CFBundleVersion: "20260226"
+        WKCompanionAppBundleIdentifier: "$(TRAVERSALAI_APP_BUNDLE_ID)"
+        WKWatchKitApp: true
+
+  TraversalAIWatchExtension:
+    type: watchkit2-extension
+    platform: watchOS
+    deploymentTarget: "11.0"
+    sources:
+      - path: WatchExtension/Sources
+    dependencies:
+      - sdk: WatchConnectivity.framework
+      - sdk: UserNotifications.framework
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "$(TRAVERSALAI_WATCH_EXTENSION_BUNDLE_ID)"
+    info:
+      path: WatchExtension/Info.plist
+      properties:
+        CFBundleDisplayName: TraversalAI
+        CFBundleShortVersionString: "2026.2.26"
+        CFBundleVersion: "20260226"
+        NSExtension:
+          NSExtensionAttributes:
+            WKAppBundleIdentifier: "$(TRAVERSALAI_WATCH_APP_BUNDLE_ID)"
+          NSExtensionPointIdentifier: com.apple.watchkit
+
+  TraversalAITests:
+    type: bundle.unit-test
+    platform: iOS
+    configFiles:
+      Debug: Signing.xcconfig
+      Release: Signing.xcconfig
+    sources:
+      - path: Tests
+    dependencies:
+      - target: TraversalAI
+      - package: Swabble
+        product: SwabbleKit
+      - sdk: AppIntents.framework
+    settings:
+      base:
+        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_STYLE: "$(TRAVERSALAI_CODE_SIGN_STYLE)"
+        DEVELOPMENT_TEAM: "$(TRAVERSALAI_DEVELOPMENT_TEAM)"
+        PRODUCT_BUNDLE_IDENTIFIER: ai.traversalai.ios.tests
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/TraversalAI.app/TraversalAI"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+    info:
+      path: Tests/Info.plist
+      properties:
+        CFBundleDisplayName: TraversalAITests
+        CFBundleShortVersionString: "2026.2.26"
+        CFBundleVersion: "20260226"

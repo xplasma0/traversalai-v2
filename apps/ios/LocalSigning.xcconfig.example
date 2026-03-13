@@ -1,0 +1,14 @@
+// Copy to LocalSigning.xcconfig for personal local signing overrides.
+// This file is only an example and should stay committed.
+
+TRAVERSALAI_CODE_SIGN_STYLE = Automatic
+TRAVERSALAI_DEVELOPMENT_TEAM = P5Z8X89DJL
+
+TRAVERSALAI_APP_BUNDLE_ID = ai.traversalai.ios.test.mariano
+TRAVERSALAI_SHARE_BUNDLE_ID = ai.traversalai.ios.test.mariano.share
+TRAVERSALAI_WATCH_APP_BUNDLE_ID = ai.traversalai.ios.test.mariano.watchkitapp
+TRAVERSALAI_WATCH_EXTENSION_BUNDLE_ID = ai.traversalai.ios.test.mariano.watchkitapp.extension
+
+// Leave empty with automatic signing.
+TRAVERSALAI_APP_PROFILE =
+TRAVERSALAI_SHARE_PROFILE =

@@ -1,0 +1,12 @@
+{
+  "name": "@traversalai/google-gemini-cli-auth",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI Gemini CLI OAuth provider plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

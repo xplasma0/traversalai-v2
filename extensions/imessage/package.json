@@ -1,0 +1,12 @@
+{
+  "name": "@traversalai/imessage",
+  "version": "2026.2.26",
+  "private": true,
+  "description": "TraversalAI iMessage channel plugin",
+  "type": "module",
+  "traversalai": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
